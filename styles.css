@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Navigation Bar */
+.top-bar {
+    background-color: #292032;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed; /* Fixes the top bar to the top of the screen */
+    top: 0;
+    width: 100%; /* Ensures the bar spans the entire width of the viewport */
+    z-index: 1000; /* Keeps the bar on top of other content */
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.top-bar a:hover {
+    background-color: #575757;
+}
+
+/* Introduction Section */
+.intro {
+    background-color: #e2befd;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    margin-top: 60px;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Main Content Area */
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+body {
+    background-image: url('background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
