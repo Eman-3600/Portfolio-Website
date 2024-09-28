@@ -8,7 +8,7 @@
 
 /* Top Navigation Bar */
 .top-bar {
-    background-color: #292032;
+    background-color: #416ead;
     padding: 10px 20px;
     display: flex;
     justify-content: flex-start;
@@ -33,7 +33,7 @@
 
 /* Introduction Section */
 .intro {
-    background-color: #e2befd;
+    background-color: #a5d3e8;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ddd;
