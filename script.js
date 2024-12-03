@@ -12,7 +12,7 @@ const images = [
 const background = document.querySelector('.background');
 
 // Generate tiles for the background
-for (let i = 0; i < 7000; i++) { // Adjust for number of tiles
+for (let i = 0; i < 8000; i++) { // Adjust for number of tiles
     const tile = document.createElement('div');
     const randomImage = images[Math.floor(Math.random() * images.length)];
     tile.style.backgroundImage = `url(${randomImage})`;
