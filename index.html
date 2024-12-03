@@ -2,37 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evan's Portfolio</title>
+    <title>Evan Stagl: About Me</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="icon.ico" type="image/icon">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <!-- Top Navigation Bar -->
-    <nav class="top-bar">
-        <a href="index.html">Home</a>
-    </nav>
-
-    <!-- Introduction Section -->
-    <section class="intro">
-        <h1>Hi, I'm Evan Stagl</h1>
-        <p>I am an aspiring game developer and programmer looking to join a team. I've worked on multiple small projects in the past, and now I'm setting my sights upward.</p>
-    </section>
-
-    <!-- Main Content -->
-    <main class="content">
-        <h1>Education</h1>
-        <p>To be continued...</p>
-        <br>
-
-        <h1>Programming Projects</h1>
-        <p>To be continued...</p>
-        <br>
-
-        <h1>Music</h1>
-        <p>To be continued...</p>
-        <br>
+    <div class="background"></div>
+    <header>
+        <nav>
+            <div class="logo">Evan Stagl</div>
+            <ul>
+                <li><a href="index.html" class="active">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="text">
+                <h2>About Me</h2>
+                <p>Hi, I'm Evan Stagl. I am an aspiring game developer and programmer looking to join a team. I've worked on many projects, both personal and for school, and now I have my sights set on professional development.</p>
+                <p>I began learning Java while I was still in elementary school where I used it to develop small mods for Minecraft. Ever since, I've known that I wanted to develop games for a living. Nearly every step I've taken since has brought me closer to achieving that goal.</p>
+            </div>
+            <div class="image">
+                <img src="self-portrait.png" alt="A picture of me.">
+            </div>
+        </section>
+        <section>
+            <div class="text">
+                <a href="projects.html"><h2>Programming Projects</h2></a>
+                <p>I have developed a plethora of programming projects, including apps, small games, and game modifications. On the left is a modification I developed for Minecraft, which I call Demons and Dreams.</p>
+            </div>
+            <div class="image">
+                <img src="dndreams-front.png" alt="The inventory screen of a Minecraft modification.">
+            </div>
+        </section>
+        <section>
+            <div class="text">
+                <a href="music.html"><h2>Music</h2></a>
+                <p>I have recently begun learning how to compose music and have composed some tracks for my Minecraft mod, Demons and Dreams.</p>
+            </div>
+            <div class="image">
+                <img src="cakewalk-front.png" alt="A screenshot of some music-development software.">
+            </div>
+        </section>
     </main>
 </body>
 </html>
